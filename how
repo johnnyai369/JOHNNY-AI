@@ -1,0 +1,16 @@
+[33mcommit d4f2756f29d973ac1041a06d7ecc72a3a6937bb5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jonny Pradhaan <johnnyai.app@gmail.com>
+Date:   Tue Jun 30 21:31:32 2026 +0530
+
+    First version of JOHNNY AI
+
+ .gitignore        |    2 [32m+[m
+ README.md         |   10 [32m+[m
+ config.js         |    1 [32m+[m
+ index.html        |   79 [32m+++[m
+ package-lock.json | 1375 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ package.json      |   20 [32m+[m
+ script.js         |   25 [32m+[m
+ server.js         |   49 [32m++[m
+ style.css         |    0
+ 9 files changed, 1561 insertions(+)
