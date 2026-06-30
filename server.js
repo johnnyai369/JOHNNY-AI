@@ -44,12 +44,12 @@ ${req.body.message}
     });
 
   } catch (err) {
-    console.error(err);
+  console.error(err);
 
-    res.status(500).json({
-      reply: err.message || "Error connecting to Gemini AI",
-    });
-  }
+  res.status(500).json({
+    reply: "⚠️ JOHNNY AI अभी व्यस्त है या API quota समाप्त हो गया है। कृपया कुछ देर बाद पुनः प्रयास करें।"
+  });
+}
 });
 
 const PORT = process.env.PORT || 3000;
